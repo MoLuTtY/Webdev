@@ -1,0 +1,69 @@
+body {
+    margin:0;
+    padding:0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:16px;
+    height:100vh;
+    background:url(vaccine.jpg);
+}
+.form {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    background:rgba(100, 148, 237, 0.637);
+    border-radius:10px;
+    }
+.login {
+    text-align:center;
+    color:black;
+    border-bottom:2px solid cadetblue;
+}
+.form form  {
+    padding:0 0 0 35px;
+}
+.namepass {
+    position:relative;
+    margin:35px 0;
+    font-size:20px;
+    font-weight:300;
+}
+.namepass:hover {
+     color:rgb(255, 72, 0);
+}
+.namepass input {
+    background:white;
+    color:black;
+    font-size:16px;
+    width:60%;
+    height:10%;
+}
+.namepass input:hover {
+    color:blue;
+}
+.forgot a {
+    cursor:pointer;
+}
+.forgot a:hover {
+    color:rgba(255, 0, 0, 0.842);
+}
+input[type="submit"] {
+    position:relative;
+    margin:15px;
+    width:40%;
+    height:40px;
+    border-radius:20px;
+    border:blue;
+    left:80px;
+    font-size:20px;
+    font-weight:600;
+}
+input[type="submit"]:hover {
+     color:blue;
+}
+.create {
+     padding:18px 0px;
+}
+.create a:hover {
+    color:rgba(255, 0, 0, 0.856);
+}
